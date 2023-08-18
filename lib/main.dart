@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
         //   return Center(child: CircularProgressIndicator());
         // }
         return MaterialApp(
-          title: "EdonLink ERP",
+          title: "Edon Link ERP",
           debugShowCheckedModeBanner: false,
           theme: ThemeData(primarySwatch:Colors.blue),
           home:SplashScreen(),
