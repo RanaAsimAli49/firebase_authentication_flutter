@@ -1,9 +1,5 @@
-import 'package:firebase_authentication_flutter/pages/dashboard1.dart';
-import 'package:firebase_authentication_flutter/pages/login_page.dart';
 import 'package:firebase_authentication_flutter/splash_screen.dart';
 import 'package:firebase_authentication_flutter/theme_and_color/app_color.dart';
-import 'package:firebase_authentication_flutter/theme_and_color/app_them.dart';
-import 'package:firebase_authentication_flutter/views/onboarding_screen1.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -28,7 +24,7 @@ class MyApp extends StatelessWidget {
         //   return Center(child: CircularProgressIndicator());
         // }
         return MaterialApp(
-          title: "Firebase Authentication",
+          title: "EdonLink ERP",
           debugShowCheckedModeBanner: false,
           theme: ThemeData(primarySwatch:Colors.blue),
           home:SplashScreen(),
